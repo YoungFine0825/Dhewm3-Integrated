@@ -1,3 +1,8 @@
+### Dhewm3-Integrated
+
+“Integrated”是指集成了依赖库的意思。由于官方给的依赖库是一个独立的仓库，为了方便，我把依赖库全部拷贝到了deps目录下。我用的是vs2019，所以增加了两个生成vs2019解决方案的批处理文件。在用CMake生成解决方案时，需要将依赖库路径定位到这个deps目录（具体下面有提到，或者参考vs2019批处理文件）。如果要增加其他版本VS的批处理，参照vs2019版本批处理文件中的命令行，改下VS版本即可。
+https://github.com/YoungFine0825/Dhewm3-Integrated
+
 # ABOUT
 
 _dhewm 3_ is a _Doom 3_ GPL source port, known to work on at least Windows, Linux, macOS and FreeBSD.
